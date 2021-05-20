@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.main_menu{
+    background: #270902;
+    
+}
+.main_menu ul{
+    padding: 0;
+    margin: 0;
+}
+.main_menu ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+.main_menu ul li a{
+    text-decoration: none;
+    color: #f8f2f0;
+    padding: 10px;
+    display: block;
+}
+.main_menu ul ul.sub_menu{
+    position: absolute;
+    top:-999%;
+    left: 0;
+    height:300px;
+    background: #66473d;
+    color: #fff;
+    width: 200px;
+   
+}
+.main_menu ul li:hover ul{
+    top:103%;
+   
+}
+.main_menu ul li ul li{
+    display:block;
+    border-bottom: 1px solid #3f2c2c;
+
+}
+/*-------megamenu-------*/
+.main_menu ul ul.megamenu{
+    position: absolute;
+    top:100%;
+    left: -50px;
+    height:auto;
+    background:transparent;
+    background-color: #1b0703;
+    color: #fff;
+    width: 600px;
+    display: none;
+   
+}
+.main_menu ul ul.megamenu li{
+    display:inline-block;
+    text-align: center;
+    padding: 7px 23px;
+ 
+}
+.main_menu ul ul.megamenu li ul li{
+    display:block;
+    width: 100%;
+    padding: 3px 15px;
+    
+}
+.main_menu ul ul.megamenu > li{
+    width: 25%;
+    float: left;
+    font-size: 12px;
+}
+ul.megamenu > li > ul > li > a{
+    font-size: 12px;
+     
+ }
+ul.megamenu > li > a{
+   font-size:16px;
+   font-weight: 400;
+   color: #cf0909;
+   
+}
+
+ul.megamenu > li > a:hover{
+    color: #974242;
+}
+.bottom{
+    border-bottom: 1px solid #fbff08;
+}
+.megamenu_show:hover .megamenu{
+    display:inline-block ;
+
+}
+ul.megamenu > li:hover{
+    
+
+}
+.mega_title_bottom{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    content:"";
+    width: 20px;
+    height: 1px;
+    color: #fff;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+}
